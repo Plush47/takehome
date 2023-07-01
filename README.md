@@ -4,6 +4,8 @@ Challenge: A directory contains multiple files and directories of non-uniform fi
 
 # Usage
 
-The application was written in python programming language. The application "TakeHome1.py" when run in the terminal using the "python TakeHome1.py" command, you will be prompted to enter a keyword that best identifies with the what you are searching for.
+The application was written in python programming language. The application "TakeHome1.py" when run in the terminal using the "python TakeHome1.py" command, you will be prompted to enter a keyword that best identifies with what you are searching for.
 
-The indexed file that indicates the Name, Size and Content-type of the test_data is generated in the index.json file
+The indexed file that indicates the Name, Size and Content-type of the test_data is generated in the index.json file. This file can be found in the test_data branch.
+
+Thanks.
