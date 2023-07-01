@@ -1,0 +1,26 @@
+{
+    "index.json": {
+        "size": "0.00 KB",
+        "content_type": "application/json"
+    },
+    "linear-regression-plot.jpg": {
+        "size": "19.00 KB",
+        "content_type": "image/jpeg"
+    },
+    "random-forest.png": {
+        "size": "166.00 KB",
+        "content_type": "image/png"
+    },
+    "sample.pdf": {
+        "size": "6.00 KB",
+        "content_type": "application/pdf"
+    },
+    "user1.json": {
+        "size": "0.00 KB",
+        "content_type": "application/json"
+    },
+    "user2.json": {
+        "size": "0.00 KB",
+        "content_type": "application/json"
+    }
+}
