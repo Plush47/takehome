@@ -22,6 +22,26 @@ def generate_index(base_dir):
         json.dump(index, index_file, indent=4)
 
 
-if __name__ == '__main__':
-    base_directory = '/Users/antho/Documents/takehome/test_data'
-    generate_index(base_directory)
+    return index
+
+
+def search_files(index, keyword):
+    results = []
+    for file_name, file_data in index.items():
+        if keyword.lower() in file_name.lower():
+            results.append(file_name)
+
+    return results
+
+base_dir = '/Users/antho/Documents/takehome/test_data'
+index = generate_index(base_dir)
+
+search_keyword = input("Enter a keyword to search for files: ")
+search_results = search_files(index, search_keyword)
+
+print("Search Results:")
+if search_results:
+    for file_name in search_results:
+        print(file_name)
+else:
+    print("No files found matching the search criteria.")
